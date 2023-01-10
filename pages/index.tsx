@@ -1,6 +1,8 @@
 import React from "react";
 import Head from "next/head";
+import Box from "@mui/material/Box";
 import { App } from "../src/components";
+import { inline } from "../src/styles";
 
 export default function Home() {
   return (
@@ -10,7 +12,9 @@ export default function Home() {
         <meta name="theme-color" content="#1d313a" />
         <title>ev</title>
       </Head>
-      <App />
+      <Box sx={inline.indexContainer}>
+        <App />
+      </Box>
     </>
   );
 }
