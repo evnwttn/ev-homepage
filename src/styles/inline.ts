@@ -18,12 +18,13 @@ export const appContainer = {
   flexDirection: "horizontal",
   alignItems: "center",
   justifyContent: "center",
+  mt: "11.75vh",
   height: "72.5vh",
 };
 
 export const appBox = {
-  width: "36.85vw",
   height: "100%",
+  width: "36.85vw",
 };
 
 // NAV
