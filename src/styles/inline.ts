@@ -11,6 +11,16 @@ export const indexContainer = {
 
 // COMPONENTS
 
+// APP
+
+export const appContainer = {
+  display: "flex",
+  flexDirection: "horizontal",
+  alignItems: "center",
+  justifyContent: "center",
+  height: "72.5vh",
+};
+
 // NAV
 
 export const navFontSx = {
