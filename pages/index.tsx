@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import { App } from "../src/components";
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
         <meta name="theme-color" content="#1d313a" />
         <title>ev</title>
       </Head>
-      <></>
+      <App />
     </>
   );
 }
