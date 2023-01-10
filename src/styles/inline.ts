@@ -29,16 +29,22 @@ export const appBoxLeft = {
 };
 
 export const appBoxRight = {
-  display: "flex",
-  flexDirection: "vertical",
-  alignItems: "start",
-  justifyContent: "start",
   height: "100%",
   width: "36.85vw",
   backgroundColor: palette._black,
 };
 
 // NAV
+
+export const navContainer = {
+  display: "flex",
+  flexDirection: "vertical",
+  alignItems: "start",
+  justifyContent: "start",
+  backgroundColor: "pink",
+  paddingTop: "25vh",
+  paddingLeft: "0.5vw",
+};
 
 export const navFontSx = {
   color: `${palette._cream}`,
