@@ -4,7 +4,7 @@ import { palette } from "./palette";
 
 export const indexContainer = {
   display: "flex",
-  flexDirection: "vertical",
+  flexDirection: "column",
   alignItems: "center",
   justifyContent: "center",
 };
@@ -29,24 +29,27 @@ export const appBoxLeft = {
 };
 
 export const appBoxRight = {
+  display: "flex",
+  flexDirection: "column",
+  alignItems: "start",
+  justifyContent: "start",
   height: "100%",
   width: "36.85vw",
-  backgroundColor: palette._black,
 };
 
 // NAV
 
 export const navContainer = {
   display: "flex",
-  flexDirection: "vertical",
+  flexDirection: "column",
   alignItems: "start",
   justifyContent: "start",
-  backgroundColor: "pink",
-  paddingTop: "25vh",
+  paddingTop: "30vh",
   paddingLeft: "0.5vw",
 };
 
 export const navFontSx = {
+  mt: "-1.95vh",
   color: `${palette._cream}`,
   fontFamily: "forma-djr-display, sans-serif;",
   fontWeight: "800",
