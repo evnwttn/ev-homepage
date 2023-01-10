@@ -29,8 +29,13 @@ export const appBoxLeft = {
 };
 
 export const appBoxRight = {
+  display: "flex",
+  flexDirection: "vertical",
+  alignItems: "start",
+  justifyContent: "start",
   height: "100%",
   width: "36.85vw",
+  backgroundColor: palette._black,
 };
 
 // NAV
