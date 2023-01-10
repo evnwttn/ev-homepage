@@ -1,13 +1,15 @@
+const repo = "ev-homepage";
+
 const isGithubActions = process.env.GITHUB_ACTIONS || false;
 
-let assetPrefix = "/";
-let basePath = "";
+let assetPrefix = "";
+let basePath = "/";
 
 if (isGithubActions) {
   const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, "");
 
-  assetPrefix = `/ev-homepage/`;
-  basePath = `/ev-homepage`;
+  assetPrefix = `/${repo}/`;
+  basePath = `/${repo}`;
 }
 
 module.exports = {
