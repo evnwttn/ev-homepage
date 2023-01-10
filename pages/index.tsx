@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <Head>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
-        {/* <meta name="theme-color" content="#272727" /> */}
+        <meta name="theme-color" content="#1d313a" />
         <title>ev</title>
       </Head>
       <></>
