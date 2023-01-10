@@ -9,7 +9,7 @@ export default function Home() {
         {/* <meta name="theme-color" content="#272727" /> */}
         <title>ev</title>
       </Head>
-      <>actions test ii</>
+      <></>
     </>
   );
 }
