@@ -6,8 +6,8 @@ import { inline } from "../styles";
 export const App = () => {
   return (
     <Box sx={inline.appContainer}>
-      <Box sx={inline.appBox}></Box>
-      <Box sx={inline.appBox}>
+      <Box sx={inline.appBoxLeft}></Box>
+      <Box sx={inline.appBoxRight}>
         <Nav />
       </Box>
     </Box>

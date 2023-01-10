@@ -1,5 +1,5 @@
 export const palette = {
-  _black: "0D0D0D",
+  _black: "#0D0D0D",
   _darkBlue: "#1D313A",
   _lightBlue: "#3CAFF2",
   _cream: "#F5DCC0",

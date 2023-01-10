@@ -22,7 +22,13 @@ export const appContainer = {
   height: "72.5vh",
 };
 
-export const appBox = {
+export const appBoxLeft = {
+  height: "100%",
+  width: "36.85vw",
+  backgroundColor: palette._black,
+};
+
+export const appBoxRight = {
   height: "100%",
   width: "36.85vw",
 };
