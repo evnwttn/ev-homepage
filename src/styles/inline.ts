@@ -21,6 +21,11 @@ export const appContainer = {
   height: "72.5vh",
 };
 
+export const appBox = {
+  width: "36.85vw",
+  height: "100%",
+};
+
 // NAV
 
 export const navFontSx = {
