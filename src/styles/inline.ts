@@ -23,9 +23,12 @@ export const appContainer = {
 };
 
 export const appBoxLeft = {
+  display: "flex",
+  flexDirection: "column",
+  alignItems: "end",
+  justifyContent: "center",
   height: "100%",
   width: "36.85vw",
-  backgroundColor: palette._black,
 };
 
 export const appBoxRight = {
