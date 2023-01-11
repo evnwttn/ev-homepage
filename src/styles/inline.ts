@@ -51,10 +51,16 @@ export const navContainer = {
   paddingLeft: "0.38vw",
 };
 
-export const navFontSx = {
+// TEXTBUTTON
+
+export const textButtonSx = {
   mt: "-1.95vh",
   color: `${palette._cream}`,
   fontFamily: "forma-djr-display, sans-serif;",
   fontWeight: "800",
   fontSize: "4vh",
+  "&:hover": {
+    color: `${palette._orange}`,
+    cursor: "pointer",
+  },
 };

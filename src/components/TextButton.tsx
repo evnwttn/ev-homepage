@@ -4,5 +4,9 @@ import { inline } from "../styles";
 import { TextButtonProps } from "../types";
 
 export const TextButton = ({ text }: TextButtonProps) => {
-  return <Box sx={inline.navFontSx}>{text}</Box>;
+  return (
+    <Box sx={inline.textButtonSx} onClick={() => console.log(text)}>
+      {text}
+    </Box>
+  );
 };
