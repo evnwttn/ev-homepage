@@ -1,8 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import bigEv from "../img/ev.png";
 
 export const Ev = () => {
-  return (
-    <Image src="me.png" alt="Picture of the author" width={500} height={500} />
-  );
+  return <Image src={bigEv} alt="A picture of Evan" />;
 };

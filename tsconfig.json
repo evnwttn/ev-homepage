@@ -15,9 +15,5 @@
       "jsx": "preserve",
       "incremental": true
     },
-    "include": [
-        "./src/",
-        "./pages/"
-    ],
     "exclude": ["node_modules"]
   }
