@@ -2,6 +2,8 @@ const repo = "ev-homepage";
 
 const isGithubActions = process.env.GITHUB_ACTIONS || false;
 
+images.unoptimized = true;
+
 let assetPrefix = "/";
 let basePath = "";
 
