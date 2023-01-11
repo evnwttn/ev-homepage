@@ -48,7 +48,7 @@ export const navContainer = {
   alignItems: "start",
   justifyContent: "start",
   paddingTop: "30vh",
-  paddingLeft: "0.45vw",
+  paddingLeft: "0.38vw",
 };
 
 export const navFontSx = {
