@@ -1,11 +1,11 @@
 import React from "react";
 import { Modal, Box } from "@mui/material";
 
-export const modalTest = ({ modalOpen, handleClose }: any) => {
+export const ModalBase = ({ modalOpen, handleCloseModal }: any) => {
   return (
     <Modal
       open={modalOpen}
-      onClose={handleClose}
+      onClose={handleCloseModal}
       sx={{ backdropFilter: "blur(1.5px)" }}
     >
       <Box>Yo yo yo </Box>
