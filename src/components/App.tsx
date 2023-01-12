@@ -6,6 +6,10 @@ import { inline } from "../styles";
 export const App = () => {
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
 
+  const handleOpenModal = () => {
+    setIsModalOpen(true);
+  };
+
   const handleCloseModal = () => {
     setIsModalOpen(false);
   };
@@ -17,7 +21,7 @@ export const App = () => {
         <Ev />
       </Box>
       <Box sx={inline.appBoxRight}>
-        <Nav />
+        <Nav handleOpenModal={handleOpenModal} />
       </Box>
     </Box>
   );
