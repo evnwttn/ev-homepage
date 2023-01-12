@@ -1,5 +1,7 @@
 import { palette } from "./palette";
 
+//
+
 // INDEX
 
 export const indexContainer = {
