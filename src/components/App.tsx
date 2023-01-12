@@ -4,14 +4,15 @@ import { Nav, Ev, ModalBase } from "./index";
 import { inline } from "../styles";
 
 export const App = () => {
-  const [modalOpen, setModalOpen] = useState<boolean>(false);
+  const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
+
   const handleCloseModal = () => {
-    setModalOpen(false);
+    setIsModalOpen(false);
   };
 
   return (
     <Box sx={inline.appContainer}>
-      <ModalBase open={modalOpen} onClose={handleCloseModal} />
+      <ModalBase open={isModalOpen} onClose={handleCloseModal} />
       <Box sx={inline.appBoxLeft}>
         <Ev />
       </Box>
