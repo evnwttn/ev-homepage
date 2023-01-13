@@ -22,6 +22,8 @@ export const ModalBase = ({ open, onClose }) => {
             mt: "6vh",
             width: "70vw",
             height: "auto",
+            maxHeight: "100vh",
+            overflow: "auto",
           }}
         >
           <Image
