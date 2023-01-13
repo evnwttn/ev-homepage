@@ -1,30 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import { Modal, Box } from "@mui/material";
+import { inline } from "../styles";
 
 export const ModalBase = ({ open, onClose }) => {
   return (
     <Modal open={open} onClose={onClose} sx={{ backdropFilter: "blur(1.5px)" }}>
-      <Box
-        sx={{
-          display: "flex",
-          width: "100%",
-          flexDirection: "row",
-          height: "auto",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        <Box
-          sx={{
-            display: "flex",
-            flexDirection: "column",
-            mt: "6vh",
-            width: "70vw",
-            maxHeight: "100vh",
-            overflow: "auto",
-          }}
-        >
+      <Box sx={inline.modalWrapper}>
+        <Box sx={inline.modalImageBox}>
           <Image
             src="../img/ao.png"
             alt="AO"
