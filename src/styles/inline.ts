@@ -50,6 +50,26 @@ export const divider = {
   ml: "0.04vw",
 };
 
+// MODAL BASE
+
+export const modalWrapper = {
+  display: "flex",
+  width: "100%",
+  flexDirection: "row",
+  height: "auto",
+  alignItems: "center",
+  justifyContent: "center",
+};
+
+export const modalImageBox = {
+  display: "flex",
+  flexDirection: "column",
+  mt: "6vh",
+  width: "70vw",
+  maxHeight: "100vh",
+  overflow: "auto",
+};
+
 // NAV
 
 export const navContainer = {
