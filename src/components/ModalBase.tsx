@@ -21,7 +21,6 @@ export const ModalBase = ({ open, onClose }) => {
             flexDirection: "column",
             mt: "6vh",
             width: "70vw",
-            height: "auto",
             maxHeight: "100vh",
             overflow: "auto",
           }}
